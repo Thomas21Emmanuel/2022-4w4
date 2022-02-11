@@ -1,5 +1,6 @@
 #burger {
     position: absolute;
+    top: 0;
     transition: transform .3s;
 }
 
@@ -17,10 +18,8 @@
 
 #chk-burger:checked ~ .menu-principal-container {
     display: block;
-    transition: display .5s;
-    transform: translateY(30px);
-    transition: transform 2s;
-
+    transform: translateY(0px);
+    transition-duration: transform .4s;
 }
 
 .menu-principal-container{} /*nav*/
