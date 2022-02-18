@@ -9,6 +9,7 @@ VARIABLES
 --------------------------------------------------------- */
 /* ---------------- BACKGROUND */
 /* ---------------- LIENS */
+/* ---------------- LIENS FOOTER */
 /* ---------------- FONT */
 /*---------- points de rupture des media queries -----------*/
 /* ---------------------------------------------------------
@@ -338,23 +339,23 @@ html {
 /* ---------------------------------------------------------
 ÉLÉMENTS
 --------------------------------------------------------- */
-a {
+.site__footer a {
   color: #293856;
 }
 
-a:visited {
+.site__footer a:visited {
   color: #334c5c;
 }
 
-a:hover, a:focus, a:active {
+.site__footer a:hover, .site__footer a:focus, .site__footer a:active {
   color: white;
 }
 
-a:focus {
+.site__footer a:focus {
   outline: thin dotted;
 }
 
-a:hover, a:active {
+.site__footer a:hover, .site__footer a:active {
   outline: 0;
 }
 
@@ -559,6 +560,27 @@ COMPOSANTES
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: #1a2138;
   padding: 15px;
+}
+
+.site__footer__menu__ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.site__footer__menu__ul .menu-item {
+  margin: 10px 5px;
+}
+
+.site__footer__menu__ul .menu-item a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 3px;
+}
+
+.site__footer__menu__ul .menu-item a svg {
+  color: #a0a9cf;
 }
 
 .footer__titre,
