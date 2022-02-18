@@ -20,6 +20,11 @@
                 color:$color__background-main;
                }
             }
+            &:hover {
+              svg{
+                color: darkcyan;
+              }
+            }
           }
       }
     }

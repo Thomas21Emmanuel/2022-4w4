@@ -8,8 +8,7 @@
 <div class="animation__bloc">4</div>
 <div class="animation__bloc">5</div>
 
-</section>
-    <h1>front-page.php</h1>       
+</section>      
             <?php if (have_posts()): the_post(); ?>
             <?php the_title() ?>
             <?php the_content() ?>

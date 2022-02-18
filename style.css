@@ -603,6 +603,10 @@ COMPOSANTES
   color: #a0a9cf;
 }
 
+.site__footer__menu__ul .menu-item:hover svg {
+  color: darkcyan;
+}
+
 .footer__titre,
 .footer__presentation,
 .footer__author {
@@ -619,7 +623,7 @@ theme name: Exercise 1 Emmanuel Thomas
 .site {
   background-color: #454959;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  gap: 6px;
+  gap: 1px;
 }
 
 .site__header {
@@ -665,7 +669,7 @@ ANIMATION
 
 .animation__bloc {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   width: 100px;
   height: 100px;
