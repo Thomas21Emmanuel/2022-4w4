@@ -1,5 +1,5 @@
 <?php get_header() ?>
-<main class="principal">
+<main class="site__main">
 
 <section class="animation">
 <div class="animation__bloc">1</div>

@@ -1,5 +1,5 @@
 <?php get_header() ?>
-<main class="principal">
+<main class="site__main">
 </section>
     <h1>page.php</h1>       
             <?php if (have_posts()): the_post(); ?>
