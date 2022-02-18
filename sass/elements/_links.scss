@@ -24,9 +24,9 @@
 
 
 a {
-	@include links($color__link, $color__link-visited, $color__links-hover)
+	@include links($color__link, $color__link-visited, $color__link-hover)
 }
 
 .site__footer a {
-	@include links($color__link__footer, $color__link__footer-visited, $color__links__footer-hover)
+	@include links($color__link__footer, $color__link__footer-visited, $color__link__footer-hover)
 }
