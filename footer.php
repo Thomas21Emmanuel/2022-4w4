@@ -1,3 +1,5 @@
+<html>
+    <body>
 <footer class="site__footer">
     <h2 class="footer__titre">Le footer d'Emmanuel Thomas</h2>
     <p class="footer__presentation">Le site web de l'exercise 2</p>
@@ -10,8 +12,7 @@
     "container_class"=>"site__footer__menu",
     "menu_class"=>"site__footer__menu__ul",
     "link_before"=>$icone)); ?>
-     ?>
 </footer>
 </body>
-
+<?php wp_footer(); ?>
 </html>

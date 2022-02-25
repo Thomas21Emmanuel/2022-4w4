@@ -9,9 +9,11 @@
 <div class="animation__bloc">5</div>
 
 </section>      
-            <?php if (have_posts()): the_post(); ?>
+<h1>front</h1>
+            <?php if (have_posts()): while(have_posts()) : the_post(); ?>
             <?php the_title() ?>
             <?php the_content() ?>
+            <?php endwhile; ?>
         <?php endif ?>
 </main>
 <?php get_footer() ?>
