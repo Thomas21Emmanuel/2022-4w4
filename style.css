@@ -10,6 +10,7 @@ VARIABLES
 /* ---------------- BACKGROUND */
 /* ---------------- LIENS */
 /* ---------------- LIENS FOOTER */
+/* ---------------- LIENS HEADER titre principal */
 /* ---------------- FONT */
 /*---------- points de rupture des media queries -----------*/
 /* ---------------------------------------------------------
@@ -376,6 +377,26 @@ a:hover, a:active {
 }
 
 .site__footer a:hover, .site__footer a:active {
+  outline: 0;
+}
+
+.header__titre a {
+  color: #293856;
+}
+
+.header__titre a:visited {
+  color: #334c5c;
+}
+
+.header__titre a:hover, .header__titre a:focus, .header__titre a:active {
+  color: white;
+}
+
+.header__titre a:focus {
+  outline: thin dotted;
+}
+
+.header__titre a:hover, .header__titre a:active {
   outline: 0;
 }
 
