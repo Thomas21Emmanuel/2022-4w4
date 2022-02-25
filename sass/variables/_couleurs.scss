@@ -30,3 +30,19 @@ $color__font-header : rgb(255, 255, 255);
 $color__font-main :rgb(27, 67, 94);
 $color__font-barre : rgb(255, 255, 255);
 $color__font-footer : rgb(255, 255, 255);
+
+/* ---------------- COULEUR MENU FOOTER */
+$color__link__footer__menu : #ffff;
+$color__link__footer__menu-visited : hsl(221, 35%, 25%);
+$color__link__footer__menu-hover : hsl(203, 29%, 28%);
+$background__link__footer__menu : #ffff;
+$background__link__footer__menu-visited : hsl(221, 35%, 25%);
+$background__link__footer__menu-hover : hsl(203, 29%, 28%);
+
+/* ---------------- COULEUR MENU PRINCIPAL */
+$color__link__menu__principal: red;
+$color__link__menu__principal-visited: green;
+$color__link__menu__principal-hover: blue;
+$background__link__menu__principal: yellow;
+$background__link__menu__principal-visited: black;
+$background__link__menu__principal-hover: white;

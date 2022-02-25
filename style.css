@@ -12,6 +12,8 @@ VARIABLES
 /* ---------------- LIENS FOOTER */
 /* ---------------- LIENS HEADER titre principal */
 /* ---------------- FONT */
+/* ---------------- COULEUR MENU FOOTER */
+/* ---------------- COULEUR MENU PRINCIPAL */
 /*---------- points de rupture des media queries -----------*/
 /* ---------------------------------------------------------
 INITIALISATION
@@ -340,6 +342,8 @@ html {
 /* ---------------------------------------------------------
 ÉLÉMENTS
 --------------------------------------------------------- */
+/*************************/
+/*******************************/
 a {
   color: #293856;
 }
@@ -397,6 +401,52 @@ a:hover, a:active {
 }
 
 .header__titre a:hover, .header__titre a:active {
+  outline: 0;
+}
+
+.site__footer .menu-item a {
+  color: #ffff;
+  background-color: #ffff;
+}
+
+.site__footer .menu-item a:visited {
+  color: #293856;
+  background-color: #293856;
+}
+
+.site__footer .menu-item a:hover, .site__footer .menu-item a:focus, .site__footer .menu-item a:active {
+  color: #334c5c;
+  background-color: #334c5c;
+}
+
+.site__footer .menu-item a:focus {
+  outline: thin dotted;
+}
+
+.site__footer .menu-item a:hover, .site__footer .menu-item a:active {
+  outline: 0;
+}
+
+.menu-principal .menu-item a {
+  color: red;
+  background-color: yellow;
+}
+
+.menu-principal .menu-item a:visited {
+  color: green;
+  background-color: black;
+}
+
+.menu-principal .menu-item a:hover, .menu-principal .menu-item a:focus, .menu-principal .menu-item a:active {
+  color: blue;
+  background-color: white;
+}
+
+.menu-principal .menu-item a:focus {
+  outline: thin dotted;
+}
+
+.menu-principal .menu-item a:hover, .menu-principal .menu-item a:active {
   outline: 0;
 }
 
