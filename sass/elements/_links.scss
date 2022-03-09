@@ -55,8 +55,10 @@
 {
 	color:$couleur;
 
-	&:hover {
-			color: $couleur--hover;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $couleur--hover;
 	}
  }
 
@@ -74,8 +76,8 @@ a {
 	@include links($color__link__header, $color__link__header-visited, $color__link__header-hover);
 }
 
-.site__main {
-	@include links__main($color__link__main__titre, $color__link__main__titre-hover,  $color__link__titre__cours, $color__link__titre__cours-hover,  $color__link__texte, $color__link__texte-hover);
+.site__main h1 {
+	@include links__main($color__link__main__titre,$color__link__main__titre-hover);
 }
 
 .site__footer .menu-item a {

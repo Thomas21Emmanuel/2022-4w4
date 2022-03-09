@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-theme name: Lab4 Emmanuel Thomas
+theme name: Exercise2 Emmanuel Thomas
 Author: Emmanuel Thomas
 Author URI: https://github.com/Thomas21Emmanuel/
 */
@@ -343,9 +343,10 @@ html {
 ÉLÉMENTS
 --------------------------------------------------------- */
 /*************************/
+/*************************/
 /*******************************/
 a {
-  color: #293856;
+  color: #1a2138;
 }
 
 a:visited {
@@ -353,7 +354,7 @@ a:visited {
 }
 
 a:hover, a:focus, a:active {
-  color: white;
+  color: #a0a9cf;
 }
 
 a:focus {
@@ -402,6 +403,14 @@ a:hover, a:active {
 
 .header__titre a:hover, .header__titre a:active {
   outline: 0;
+}
+
+.site__main h1 {
+  color: white;
+}
+
+.site__main h1:hover, .site__main h1:focus, .site__main h1:active {
+  color: #293856;
 }
 
 .site__footer .menu-item a {
@@ -459,6 +468,14 @@ COMPOSANTES
   background-color: #a0a9cf;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
+}
+
+.site__main h1 {
+  color: white;
+}
+
+.site__main h1:hover {
+  color: #293856;
 }
 
 .formation {

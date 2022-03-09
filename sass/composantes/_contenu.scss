@@ -4,6 +4,15 @@
     background-color: $color__background-main;
     border-radius: 5px;
     box-shadow: rgb(57, 68, 62) 1px -1px 10px;
+
+    h1{
+        color: $color__link__main__titre;
+        
+        &:hover{
+            color: $color__link__main__titre-hover;
+        }
+    }
+
 }
 
 .formation {
