@@ -50,7 +50,18 @@
 	}
 }
 
+/*************************/
+@mixin links__main($couleur, $couleur--hover) 
+{
+	color:$couleur;
+
+	&:hover {
+			color: $couleur--hover;
+	}
+ }
+
 /*******************************/
+
 a {
 	@include links($color__link, $color__link-visited, $color__link-hover);
 }
@@ -61,6 +72,10 @@ a {
 
 .header__titre a {
 	@include links($color__link__header, $color__link__header-visited, $color__link__header-hover);
+}
+
+.site__main {
+	@include links__main($color__link__main__titre, $color__link__main__titre-hover,  $color__link__titre__cours, $color__link__titre__cours-hover,  $color__link__texte, $color__link__texte-hover);
 }
 
 .site__footer .menu-item a {

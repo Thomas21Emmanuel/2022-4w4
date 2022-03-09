@@ -29,6 +29,7 @@ theme name: Exercise 1 Emmanuel Thomas
     background-color: $color__background-footer;
 }
 
+
 .site {
 	display: grid;
 	grid-template-columns: auto;
@@ -38,6 +39,7 @@ theme name: Exercise 1 Emmanuel Thomas
         "main"
 		"footer";
 }
+
 
 @media screen and (min-width: $largeur__media--tablette)
 {

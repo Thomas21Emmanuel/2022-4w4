@@ -365,7 +365,7 @@ a:hover, a:active {
 }
 
 .site__footer a {
-  color: #293856;
+  color: #ffff;
 }
 
 .site__footer a:visited {
@@ -406,7 +406,7 @@ a:hover, a:active {
 
 .site__footer .menu-item a {
   color: #ffff;
-  background-color: #ffff;
+  background-color: #293856;
 }
 
 .site__footer .menu-item a:visited {
@@ -415,8 +415,8 @@ a:hover, a:active {
 }
 
 .site__footer .menu-item a:hover, .site__footer .menu-item a:focus, .site__footer .menu-item a:active {
-  color: #334c5c;
-  background-color: #334c5c;
+  color: #1b435e;
+  background-color: #ffff;
 }
 
 .site__footer .menu-item a:focus {
@@ -428,8 +428,8 @@ a:hover, a:active {
 }
 
 .menu-principal .menu-item a {
-  color: red;
-  background-color: yellow;
+  color: white;
+  background-color: #a0a9cf;
 }
 
 .menu-principal .menu-item a:visited {
@@ -438,7 +438,7 @@ a:hover, a:active {
 }
 
 .menu-principal .menu-item a:hover, .menu-principal .menu-item a:focus, .menu-principal .menu-item a:active {
-  color: blue;
+  color: #293856;
   background-color: white;
 }
 
@@ -630,11 +630,13 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: white;
+  background-color: #a0a9cf;
+  color: white;
 }
 
 .menu-item a:hover {
-  background-color: #151656;
+  background-color: white;
+  color: #293856;
 }
 
 /*LI*/
@@ -650,7 +652,28 @@ COMPOSANTES
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: #1a2138;
+  color: white;
   padding: 15px;
+}
+
+.site__footer__colonne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site__footer__colonne section {
+  flex: 0 0 30%;
+  border: 1px solid #aaa;
+}
+
+.site__footer__ligne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site__footer__ligne section p {
+  text-align: center;
 }
 
 .site__footer__menu__ul {
@@ -668,14 +691,15 @@ COMPOSANTES
   text-decoration: none;
   align-items: center;
   padding: 3px;
+  background-color: #293856;
 }
 
 .site__footer__menu__ul .menu-item a svg {
-  color: #a0a9cf;
+  color: #ffff;
 }
 
-.site__footer__menu__ul .menu-item:hover svg {
-  color: darkcyan;
+.site__footer__menu__ul .menu-item a:hover svg {
+  color: #1b435e;
 }
 
 .footer__titre,

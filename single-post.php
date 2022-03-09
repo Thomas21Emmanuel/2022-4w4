@@ -1,6 +1,5 @@
 <?php get_header() ?>
 <main class="site__main">
-    <h1>asgas</h1>
 <?php if (have_posts()): while(have_posts()): the_post(); ?>
     
            <article class="cours">

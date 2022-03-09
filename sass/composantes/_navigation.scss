@@ -36,10 +36,12 @@
         display: block;
         text-decoration: none;
         padding : 4px;
-        background-color: $color__background-link;
+        background-color: $background__link__menu__principal;
+        color:$color__link__menu__principal;
         
         &:hover {
-            background-color: $color__background-link-hover;
+            background-color: $background__link__menu__principal-hover;
+            color:$color__link__menu__principal-hover;
         }
     }
 } /*LI*/
