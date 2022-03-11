@@ -14,6 +14,7 @@ VARIABLES
 /* ---------------- FONT */
 /* ---------------- COULEUR MENU FOOTER */
 /* ---------------- COULEUR MENU PRINCIPAL */
+/* ---------------- COULEUR TITRE MAIN */
 /*---------- points de rupture des media queries -----------*/
 /* ---------------------------------------------------------
 INITIALISATION
@@ -419,12 +420,12 @@ a:hover, a:active {
 }
 
 .site__footer .menu-item a:visited {
-  color: #293856;
+  color: #b2b9c7;
   background-color: #293856;
 }
 
 .site__footer .menu-item a:hover, .site__footer .menu-item a:focus, .site__footer .menu-item a:active {
-  color: #1b435e;
+  color: #3d82dc;
   background-color: #ffff;
 }
 
@@ -697,6 +698,7 @@ COMPOSANTES
   display: flex;
   list-style-type: none;
   justify-content: center;
+  color: #ffff;
 }
 
 .site__footer__menu__ul .menu-item {
@@ -716,7 +718,7 @@ COMPOSANTES
 }
 
 .site__footer__menu__ul .menu-item a:hover svg {
-  color: #1b435e;
+  color: #3d82dc;
 }
 
 .footer__titre,
@@ -730,7 +732,7 @@ COMPOSANTES
 LAYOUT
 --------------------------------------------------------- */
 /*
-theme name: Exercise 1 Emmanuel Thomas
+theme name: TP1 Emmanuel Thomas
 */
 .site {
   background-color: #454959;
@@ -786,9 +788,8 @@ ANIMATION
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: slategray;
+  background-color: #293457;
   color: snow;
-  font-size: 3rem;
   animation: anim-entete 1s forwards;
 }
 
