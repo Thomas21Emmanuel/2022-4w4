@@ -34,6 +34,12 @@ function cidw_4w4_register_nav_menu(){
 
     add_theme_support('post-thumbnails');
 
+    add_theme_support( 'title-tag' );
+add_theme_support( 'custom-logo', array(
+    'height' => 480,
+    'width'  => 720,
+) );
+
     /*---------------Enregistrement des sidebars---------------------------*/
     add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {

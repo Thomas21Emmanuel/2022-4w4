@@ -9,6 +9,7 @@
 </head>
 <body  <?php body_class("site"); ?>>
 <header class="site__header">
+    <?php get_custom_logo(); ?>
     <section class="site__header__titre">
         <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <?php bloginfo('name'); ?></a></h1>

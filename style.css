@@ -735,14 +735,28 @@ LAYOUT
 theme name: TP1 Emmanuel Thomas
 */
 .site {
-  background-color: #454959;
+  background-color: rgba(69, 73, 89, 0.5);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   gap: 1px;
 }
 
+.home::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: aqua;
+  clip-path: polygon(92% 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: -1;
+}
+
 .site__header {
   grid-area: header;
-  background-color: #293457;
+  background-color: rgba(41, 52, 87, 0.5);
 }
 
 .site__barre {
@@ -752,7 +766,7 @@ theme name: TP1 Emmanuel Thomas
 
 .site__main {
   grid-area: main;
-  background-color: #a0a9cf;
+  background-color: rgba(160, 169, 207, 0.5);
 }
 
 .site__footer {
@@ -790,6 +804,7 @@ ANIMATION
   border-radius: 50%;
   background-color: #293457;
   color: snow;
+  background-color: red;
   animation: anim-entete 1s forwards;
 }
 
