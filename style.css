@@ -804,8 +804,15 @@ ANIMATION
   border-radius: 50%;
   background-color: #293457;
   color: snow;
-  background-color: red;
   animation: anim-entete 1s forwards;
+}
+
+.animation__bloc:first-child:hover {
+  animation: anim-jeu 2s forwards;
+}
+
+.animation__bloc:nth-child(4):hover {
+  animation: anim-vid 2s forwards;
 }
 
 @keyframes anim-entete {
@@ -814,6 +821,36 @@ ANIMATION
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes anim-jeu {
+  0% {
+    transform: translateX(-10px);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes anim-vid {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0);
   }
 }
 /*# sourceMappingURL=style.css.map */
