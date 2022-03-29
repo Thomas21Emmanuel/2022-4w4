@@ -15,6 +15,7 @@ VARIABLES
 /* ---------------- COULEUR MENU FOOTER */
 /* ---------------- COULEUR MENU PRINCIPAL */
 /* ---------------- COULEUR TITRE MAIN */
+/* ---------------- COULEUR Bouton Menu-catégorie cours */
 /*---------- points de rupture des media queries -----------*/
 /* ---------------------------------------------------------
 INITIALISATION
@@ -460,6 +461,46 @@ a:hover, a:active {
   outline: 0;
 }
 
+h1 {
+  font-size: clamp(2rem, 3vw, 5rem);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3, h4 {
+  font-family: 'Nunito', sans-serif;
+}
+
+h5, h6 {
+  font-family: 'PT Serif', serif;
+}
+
 /* ---------------------------------------------------------
 COMPOSANTES
 --------------------------------------------------------- */
@@ -726,6 +767,27 @@ COMPOSANTES
 .footer__author {
   color: white;
   text-align: center;
+}
+
+.menu-categorie_cours-container .menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-categorie_cours-container .menu .menu-item {
+  margin: 0 15px;
+}
+
+.menu-categorie_cours-container .menu .menu-item a {
+  padding: 5px;
+}
+
+.menu-categorie_cours-container .menu:hover {
+  background-color: red;
+}
+
+.menu-categorie_cours-container .menu:hover a {
+  color: white;
 }
 
 /* ---------------------------------------------------------

@@ -20,6 +20,7 @@ INITIALISATION
 ÉLÉMENTS
 --------------------------------------------------------- */
 @import "elements/links";
+@import "elements/balise";
 
 /* ---------------------------------------------------------
 COMPOSANTES
@@ -28,6 +29,7 @@ COMPOSANTES
 @import "composantes/header";
 @import "composantes/navigation";
 @import "composantes/footer";
+@import "composantes/navigation_categorie_cours";
 
 /* ---------------------------------------------------------
 LAYOUT

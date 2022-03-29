@@ -3,6 +3,11 @@
     <h1>Cours</h1>
     <section class="formation">
         <h2 class="formation__titre">Liste des cours du programme de TIM</h2>
+        <?php wp_nav_menu(array(
+            "menu"=> "categorie_cours",
+            "container" => "nav"
+        ));
+        ?>
         <div class="formation__liste">
             <?php if (have_posts()):
                 while (have_posts()): the_post(); ?>
