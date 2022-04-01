@@ -1,5 +1,5 @@
 <?php
-        //the_category()
+       
         $categories = get_the_category();
         //var_dump($categories);
     ?>
