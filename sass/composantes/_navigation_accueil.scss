@@ -1,0 +1,38 @@
+.menu-menu_accueil-container { // nav
+    
+    .menu { // ul
+        display:flex;
+        justify-content: space-around;
+        .menu-item { // li
+            width: 15%;
+            padding: 10px;
+            background-color: $color__bouton__background;
+            
+            .a {
+                color:$color__font-main;
+                font-size: 1.5rem;
+
+                .menu-item-description { // span
+                    font-size: 1rem;
+                }
+
+            }
+            &:hover {
+                background-color: $color__background-link-hover;
+                a {
+                    color: $color__font-barre;
+                }
+            }
+
+        }
+    }
+
+    
+
+
+
+
+
+
+
+}

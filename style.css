@@ -467,6 +467,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
+  color: #1b435e;
 }
 
 h3 {
@@ -529,7 +530,6 @@ COMPOSANTES
   font-size: 2rem;
   color: #1b435e;
   margin: 10px 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .formation__liste {
@@ -538,6 +538,8 @@ COMPOSANTES
 }
 
 .formation__cours {
+  background-repeat: no-repeat;
+  background-position: 93% 3%;
   background-color: white;
   box-shadow: white 1px -1px 10px;
   border-radius: 5px;
@@ -574,6 +576,34 @@ COMPOSANTES
 
 .cours__titre__description {
   font-size: 1rem;
+}
+
+.web {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=globe");
+}
+
+.jeu {
+  background-image: url("https://s2.svgbox.net/materialui.svg?ic=games");
+}
+
+.comm {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=users");
+}
+
+.design {
+  background-image: url("https://s2.svgbox.net/materialui.svg?ic=color_lens");
+}
+
+.utilitaire {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=tools-bold");
+}
+
+.video {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=device-camera-video");
+}
+
+.creation-3d {
+  background-image: url("https://s2.svgbox.net/materialui.svg?ic=view_in_ar");
 }
 
 .site__header {
@@ -787,6 +817,34 @@ COMPOSANTES
 }
 
 .menu-categorie_cours-container .menu:hover a {
+  color: white;
+}
+
+.menu-menu_accueil-container .menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-menu_accueil-container .menu .menu-item {
+  width: 15%;
+  padding: 10px;
+  background-color: red;
+}
+
+.menu-menu_accueil-container .menu .menu-item .a {
+  color: #1b435e;
+  font-size: 1.5rem;
+}
+
+.menu-menu_accueil-container .menu .menu-item .a .menu-item-description {
+  font-size: 1rem;
+}
+
+.menu-menu_accueil-container .menu .menu-item:hover {
+  background-color: #151656;
+}
+
+.menu-menu_accueil-container .menu .menu-item:hover a {
   color: white;
 }
 

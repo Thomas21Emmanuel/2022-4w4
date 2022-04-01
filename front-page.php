@@ -9,6 +9,10 @@
 <div class="animation__bloc">Création 3D</div>
 
 </section>      
+<?php
+    wp_nav_menu(array("menu"=>"menu_accueil",
+                        "container"=>"nav"));
+?>
             <?php if (have_posts()): while(have_posts()) : the_post(); ?>
             <?php the_title() ?>
             <?php the_content() ?>
