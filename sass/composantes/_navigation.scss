@@ -22,7 +22,7 @@
     transition-duration: transform .4s;
 }
 
-.menu-principal-container{} /*nav*/
+.menu-principal-container{ /*nav*/
 .menu{
     list-style-type: none;
     margin:0;
@@ -45,7 +45,7 @@
         }
     }
 } /*LI*/
-
+ }
 @media screen and (min-width: $largeur__media--tablette)
 {
     #burger {

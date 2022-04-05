@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-theme name: TP2 Emmanuel Thomas
+theme name: 2022-4w4 Ex3 Emmanuel Thomas
 Author: Emmanuel Thomas
 Author URI: https://github.com/Thomas21Emmanuel/
 */
@@ -701,21 +701,25 @@ COMPOSANTES
   transition-duration: transform .4s;
 }
 
-/*nav*/
-.menu {
+.menu-principal-container {
+  /*nav*/
+  /*UL*/
+  /*LI*/
+}
+
+.menu-principal-container .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   color: white;
 }
 
-/*UL*/
-.menu-item {
+.menu-principal-container .menu-item {
   margin: 0;
   padding: 0;
 }
 
-.menu-item a {
+.menu-principal-container .menu-item a {
   display: block;
   text-decoration: none;
   padding: 4px;
@@ -723,12 +727,11 @@ COMPOSANTES
   color: white;
 }
 
-.menu-item a:hover {
+.menu-principal-container .menu-item a:hover {
   background-color: white;
   color: #293856;
 }
 
-/*LI*/
 @media screen and (min-width: 601px) {
   #burger {
     display: none;
@@ -806,46 +809,75 @@ COMPOSANTES
 
 .menu-categorie_cours-container .menu .menu-item {
   margin: 0 15px;
+  background-color: #293856;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .menu-categorie_cours-container .menu .menu-item a {
+  color: white;
   padding: 5px;
 }
 
-.menu-categorie_cours-container .menu:hover {
-  background-color: red;
+.menu-categorie_cours-container .menu .menu-item:hover a {
+  color: #3d82dc;
 }
 
-.menu-categorie_cours-container .menu:hover a {
-  color: white;
-}
-
-.menu-menu_accueil-container .menu {
+.menu-accueil-container .menu {
   display: flex;
+  list-style-type: none;
   justify-content: space-around;
 }
 
-.menu-menu_accueil-container .menu .menu-item {
-  width: 15%;
-  padding: 10px;
-  background-color: red;
+.menu-accueil-container .menu .accueil__cours .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
 }
 
-.menu-menu_accueil-container .menu .menu-item .a {
-  color: #1b435e;
+.menu-accueil-container .menu .accueil__prof .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+}
+
+.menu-accueil-container .menu .accueil__aide .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+}
+
+.menu-accueil-container .menu .accueil__etudiant .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+}
+
+.menu-accueil-container .menu .menu-item {
+  width: 15%;
+  padding: 10px;
+  background-color: #3d82dc;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.menu-accueil-container .menu .menu-item .a {
+  color: white;
   font-size: 1.5rem;
 }
 
-.menu-menu_accueil-container .menu .menu-item .a .menu-item-description {
+.menu-accueil-container .menu .menu-item .a hr {
+  width: 90%;
+}
+
+.menu-accueil-container .menu .menu-item .a .menu-item-description {
   font-size: 1rem;
 }
 
-.menu-menu_accueil-container .menu .menu-item:hover {
-  background-color: #151656;
+.menu-accueil-container .menu .menu-item .a .menu-item-icone {
+  border: 1px solid #aaa;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: auto;
 }
 
-.menu-menu_accueil-container .menu .menu-item:hover a {
-  color: white;
+.menu-accueil-container .menu .menu-item:hover a {
+  background-color: #293856;
 }
 
 /* ---------------------------------------------------------

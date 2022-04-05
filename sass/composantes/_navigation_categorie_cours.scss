@@ -3,20 +3,27 @@
 .menu { // ul
     display: flex;
     list-style-type: none;
-
+    
     .menu-item { // li
         margin : 0 15px;
+        background-color: $color__bouton__color--hover;
+        border: 2px solid white;
+        border-radius: 10px;
+        
         a {
+            color:$color__font-header;
             padding: 5px;
+        }
+
+        &:hover {
+    
+            a {
+                color:$color__link__footer__menu-hover;
+            }
         }
     }
 
-&:hover {
-    background-color: $color__bouton__background;
-    a {
-        color:$color__bouton__color;
-    }
-}
+
  }
 
 }

@@ -1,26 +1,56 @@
-.menu-menu_accueil-container { // nav
+.menu-accueil-container { // nav
     
     .menu { // ul
         display:flex;
+        list-style-type: none;
         justify-content: space-around;
+
+        .accueil__cours .menu-item-icone {
+                background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
+        }
+        .accueil__prof .menu-item-icone {
+            background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+        }
+        .accueil__aide .menu-item-icone {
+            background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+        }
+        .accueil__etudiant .menu-item-icone {
+            background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+        }
+
         .menu-item { // li
             width: 15%;
             padding: 10px;
-            background-color: $color__bouton__background;
+            background-color: $color__link__footer__menu-hover;
+            border: 2px solid white;
+            border-radius: 10px;
             
             .a {
-                color:$color__font-main;
+                color:$color__link__main__titre;
                 font-size: 1.5rem;
+                hr {
+                    width:90%;
+                }
 
                 .menu-item-description { // span
                     font-size: 1rem;
                 }
 
+                .menu-item-icone {
+                    border: 1px solid #aaa;
+                    width:2rem;
+                    height: 2rem;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-top: auto;
+                }
+
             }
             &:hover {
-                background-color: $color__background-link-hover;
+                //background-color: $color__background-link-hover;
                 a {
-                    color: $color__font-barre;
+                    background-color: $color__link__menu__principal-hover;
                 }
             }
 
