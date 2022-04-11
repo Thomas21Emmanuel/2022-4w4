@@ -6,16 +6,16 @@
         justify-content: space-around;
 
         .accueil__cours .menu-item-icone {
-                background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
         }
         .accueil__prof .menu-item-icone {
-            background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold');
         }
         .accueil__aide .menu-item-icone {
-            background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold');
         }
         .accueil__etudiant .menu-item-icone {
-            background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold');
         }
 
         .menu-item { // li
@@ -25,13 +25,13 @@
             border: 2px solid white;
             border-radius: 10px;
             
-            .a {
+            a {
                 color:$color__link__main__titre;
                 font-size: 1.5rem;
-                hr {
-                    width:90%;
-                }
 
+                hr{
+                    width : 90%;
+                }
                 .menu-item-description { // span
                     font-size: 1rem;
                 }

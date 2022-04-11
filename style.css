@@ -830,19 +830,19 @@ COMPOSANTES
 }
 
 .menu-accueil-container .menu .accueil__cours .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
 }
 
 .menu-accueil-container .menu .accueil__prof .menu-item-icone {
-  background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
 }
 
 .menu-accueil-container .menu .accueil__aide .menu-item-icone {
-  background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
 }
 
 .menu-accueil-container .menu .accueil__etudiant .menu-item-icone {
-  background-image: url(https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold);
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
 }
 
 .menu-accueil-container .menu .menu-item {
@@ -853,20 +853,20 @@ COMPOSANTES
   border-radius: 10px;
 }
 
-.menu-accueil-container .menu .menu-item .a {
+.menu-accueil-container .menu .menu-item a {
   color: white;
   font-size: 1.5rem;
 }
 
-.menu-accueil-container .menu .menu-item .a hr {
+.menu-accueil-container .menu .menu-item a hr {
   width: 90%;
 }
 
-.menu-accueil-container .menu .menu-item .a .menu-item-description {
+.menu-accueil-container .menu .menu-item a .menu-item-description {
   font-size: 1rem;
 }
 
-.menu-accueil-container .menu .menu-item .a .menu-item-icone {
+.menu-accueil-container .menu .menu-item a .menu-item-icone {
   border: 1px solid #aaa;
   width: 2rem;
   height: 2rem;
