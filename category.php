@@ -1,8 +1,9 @@
 <?php get_header() ?>
 <main class="site__main">
-    <h1>Cours</h1>
-    <section class="formation">
-        <h2 class="formation__titre">Liste des cours du programme de TIM</h2>
+    <h1>Catégories</h1>
+    
+    <a href="?cletri=title&ordre=asc">Ascendant</a>
+    <a href="?cletri=title&ordre=desc">Descendant</a>
         <?php wp_nav_menu(array(
             "menu"=> "categorie_cours",
             "container" => "nav"

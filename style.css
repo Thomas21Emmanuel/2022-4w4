@@ -16,6 +16,7 @@ VARIABLES
 /* ---------------- COULEUR MENU PRINCIPAL */
 /* ---------------- COULEUR TITRE MAIN */
 /* ---------------- COULEUR Bouton Menu-catégorie cours */
+/* ---------------- COULEUR carte évènements */
 /*---------- points de rupture des media queries -----------*/
 /* ---------------------------------------------------------
 INITIALISATION
@@ -827,61 +828,92 @@ COMPOSANTES
   background-color: #1479b8;
 }
 
-.menu-accueil-container .menu {
+.menu-accueil-container .menu, .menu-evenement-container .menu {
   display: flex;
-  list-style-type: none;
   justify-content: space-around;
 }
 
-.menu-accueil-container .menu .accueil__cours .menu-item-icone {
+.menu-accueil-container .menu .accueil__cours .menu-item-icone, .menu-evenement-container .menu .accueil__cours .menu-item-icone {
   background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
 }
 
-.menu-accueil-container .menu .accueil__prof .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
+.menu-accueil-container .menu .accueil__prof .menu-item-icone, .menu-evenement-container .menu .accueil__prof .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
 }
 
-.menu-accueil-container .menu .accueil__aide .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
+.menu-accueil-container .menu .accueil__aide .menu-item-icone, .menu-evenement-container .menu .accueil__aide .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
 }
 
-.menu-accueil-container .menu .accueil__etudiant .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/octicons.svg?ic=arrow-both-bold");
+.menu-accueil-container .menu .accueil__etudiant .menu-item-icone, .menu-evenement-container .menu .accueil__etudiant .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
 }
 
-.menu-accueil-container .menu .menu-item {
+.menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item {
   width: 15%;
+  height: 250px;
   padding: 10px;
-  background-color: #3d82dc;
-  border: 2px solid white;
-  border-radius: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  list-style-type: none;
 }
 
-.menu-accueil-container .menu .menu-item a {
-  color: white;
+.menu-accueil-container .menu .menu-item a, .menu-evenement-container .menu .menu-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1.5rem;
+  height: 100%;
 }
 
-.menu-accueil-container .menu .menu-item a hr {
+.menu-accueil-container .menu .menu-item a hr, .menu-evenement-container .menu .menu-item a hr {
   width: 90%;
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-description {
+.menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description {
   font-size: 1rem;
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-icone {
-  border: 1px solid #aaa;
-  width: 2rem;
-  height: 2rem;
-  background-repeat: no-repeat;
-  background-size: cover;
+.menu-accueil-container .menu .menu-item a .menu-item-icone, .menu-evenement-container .menu .menu-item a .menu-item-icone {
+  width: 3rem;
+  height: 3rem;
   background-position: center;
+  background-repeat: no-repeat;
   margin-top: auto;
+  background-size: cover;
 }
 
-.menu-accueil-container .menu .menu-item:hover a {
-  background-color: #293856;
+.menu-accueil-container .menu-item {
+  background-color: #8ea3cd;
+}
+
+.menu-accueil-container .menu-item a {
+  color: #1a2138;
+}
+
+.menu-accueil-container .menu-item:hover {
+  background-color: white;
+}
+
+.menu-accueil-container .menu-item:hover a {
+  color: #5aabdd;
+}
+
+.menu-evenement-container .menu-item {
+  background-color: white;
+}
+
+.menu-evenement-container .menu-item a {
+  color: #3d82dc;
+}
+
+.menu-evenement-container .menu-item:hover {
+  background-color: #1d6fdb;
+}
+
+.menu-evenement-container .menu-item:hover a {
+  color: #f1f1f1;
 }
 
 /* ---------------------------------------------------------

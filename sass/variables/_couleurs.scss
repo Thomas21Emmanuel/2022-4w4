@@ -54,7 +54,13 @@ $color__link__main__titre-hover:hsl(221, 35%, 25%);
 
 /* ---------------- COULEUR Bouton Menu-catégorie cours */
 $color__bouton__color: hsl(226, 37%, 16%);
-$color__bouton__background:  hsl(221, 35%, 25%);
+$color__bouton__background:  hsl(220, 39%, 68%);
 $color__bouton__color--hover:  hsl(203, 66%, 61%);
-$color__bouton__background--hover: green;
+$color__bouton__background--hover: white;
 $color__bouton__background--current: hsl(203, 80%, 40%);
+
+/* ---------------- COULEUR carte évènements */
+$couleur__carte__evenement: rgb(61, 130, 220);
+$couleur__carte__evenement__background: white;
+$couleur__carte__evenement--hover: rgb(241, 241, 241);
+$couleur__carte__evenement__background--hover: rgb(29, 111, 219);
