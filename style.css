@@ -809,7 +809,7 @@ COMPOSANTES
 
 .menu-categorie_cours-container .menu .menu-item {
   margin: 0 15px;
-  background-color: #293856;
+  background-color: #5aabdd;
   border: 2px solid white;
   border-radius: 10px;
 }
@@ -821,6 +821,10 @@ COMPOSANTES
 
 .menu-categorie_cours-container .menu .menu-item:hover a {
   color: #3d82dc;
+}
+
+.menu-categorie_cours-container .menu .current-menu-item {
+  background-color: #1479b8;
 }
 
 .menu-accueil-container .menu {
