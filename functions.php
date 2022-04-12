@@ -128,8 +128,8 @@ function my_register_sidebars() {
 /**
  * Modifie la requête global de WP_query.
  * 
- * @param WP_query $query : Objet contenant la requête global.
- * @return WP_query $query. 
+ * @param : WP_query $query : Objet contenant la requête global.
+ * @return : WP_query $query. 
  */
 function cidw_4w4_pre_get_posts(WP_Query $query)
 {
@@ -140,8 +140,8 @@ function cidw_4w4_pre_get_posts(WP_Query $query)
     else
     {
        
-        $ordre = get_query_var('ordre');
-        $cle = get_query_var('cletri');       
+        $ordre = get_query_var('ordre', 'asc');
+        $cle = get_query_var('cletri', 'title');       
         $query->set('order',  $ordre);
         $query->set('orderby', $cle);
         $query->set('postperpage','-1');
@@ -154,9 +154,9 @@ function cidw_4w4_pre_get_posts(WP_Query $query)
 function cidw_4w4_query_vars($params){
 // var_dump($params);
 // die();
-    $params[] = "ordre";
     $params[] = "cletri";
-return $params;
+    $params[] = "ordre";
+    return $params;
 
 }
 /*

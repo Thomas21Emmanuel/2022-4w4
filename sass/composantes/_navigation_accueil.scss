@@ -1,18 +1,21 @@
 .menu-accueil-container, .menu-evenement-container { //nav
+   
 
     .menu { //ul
         display : flex;
         justify-content: space-around;
-        .accueil__cours .menu-item-icone{
+        
+        
+        .accueil_cours .menu-item-icone{
             background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
         }
-        .accueil__prof .menu-item-icone{
+        .accueil_aide .menu-item-icone{
             background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
         }
-        .accueil__aide .menu-item-icone{
+        .accueil_etudiant .menu-item-icone{
             background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
         }
-        .accueil__etudiant .menu-item-icone{
+        .accueil_prof .menu-item-icone{
             background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
         }
 
@@ -55,6 +58,7 @@
         }    
 
         }
+        
 
 
 
