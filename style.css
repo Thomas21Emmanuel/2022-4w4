@@ -353,7 +353,7 @@ a {
 }
 
 a:visited {
-  color: #334c5c;
+  color: white;
 }
 
 a:hover, a:focus, a:active {
@@ -441,7 +441,7 @@ a:hover, a:active {
 
 .menu-principal .menu-item a {
   color: white;
-  background-color: #a0a9cf;
+  background-color: #353333;
 }
 
 .menu-principal .menu-item a:visited {
@@ -608,7 +608,7 @@ COMPOSANTES
 }
 
 .site__header {
-  background-color: #293457;
+  background-color: #121212;
   color: white;
   padding-left: 10px;
   display: flex;
@@ -724,7 +724,7 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: #a0a9cf;
+  background-color: #353333;
   color: white;
 }
 
@@ -744,7 +744,7 @@ COMPOSANTES
 
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color: #1a2138;
+  background-color: #121212;
   color: white;
   padding: 15px;
 }
@@ -944,12 +944,12 @@ theme name: TP1 Emmanuel Thomas
 
 .site__header {
   grid-area: header;
-  background-color: rgba(41, 52, 87, 0.5);
+  background-color: rgba(18, 18, 18, 0.5);
 }
 
 .site__barre {
   grid-area: sidebar;
-  background-color: #293457;
+  background-color: #121212;
 }
 
 .site__main {
@@ -959,7 +959,7 @@ theme name: TP1 Emmanuel Thomas
 
 .site__footer {
   grid-area: footer;
-  background-color: #1a2138;
+  background-color: #121212;
 }
 
 .site {
@@ -990,7 +990,7 @@ ANIMATION
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #293457;
+  background-color: slateblue;
   color: snow;
   animation: anim-entete 1s forwards;
 }

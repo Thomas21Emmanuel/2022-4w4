@@ -10,7 +10,7 @@
 <div class="animation__bloc">Création 3D</div>
 
 </section>  
-<h2>Activités au départemetn du TIM</h2>    
+<h2>Activités au département du TIM</h2>    
 <?php
     wp_nav_menu(array("menu"=>"menu_accueil",
                         "container"=>"nav"));
