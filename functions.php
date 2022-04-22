@@ -4,8 +4,9 @@ function cidw_4w4_enqueue(){
     wp_enqueue_style('cidw-4w4-le-style', get_template_directory_uri() . '/style.css', array(), filemtime(get_template_directory() . '/style.css'), false);
     wp_enqueue_style('cidw-4w4-police-google', "https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=PT+Serif:ital@1&family=Roboto+Condensed&display=swap", false);
     wp_enqueue_script('cidw-4w4-js-modal',
-     get_template_directory_uri() . '/javascript/boite_modal.js',
+     get_template_directory_uri() . '/javascript/boite_modale.js',
       array(), '1.0.0',
+      filemtime(get_template_directory() . '/javascript/boite_modale.js'),
      true );
     
 }
