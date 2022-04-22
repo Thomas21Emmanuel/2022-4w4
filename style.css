@@ -916,6 +916,22 @@ COMPOSANTES
   color: #f1f1f1;
 }
 
+.boite__modale {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  border: 10px solid #aaa;
+  background-color: slategray;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.boite__modale:hover {
+  transform: scale(1);
+}
+
 /* ---------------------------------------------------------
 LAYOUT
 --------------------------------------------------------- */
