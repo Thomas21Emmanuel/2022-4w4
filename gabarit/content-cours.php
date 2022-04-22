@@ -14,6 +14,7 @@
                         $no_departement = substr($departement,0,3);
                         $sigleCours =  substr($titre, 0, 4);
                         ?>
+                        <code style='display:none'><?= $descCours; ?></code>
     <?php echo the_post_thumbnail("thumbnail"); ?>
     <h3 class="cours__titre">
         <a href="<?php echo get_permalink(); ?>">
