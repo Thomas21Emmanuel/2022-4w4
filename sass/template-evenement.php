@@ -1,13 +1,15 @@
 <?php /* Template Name: Evenement */ ?>
 <?php get_header() ?>
 <main class="site__main">
-</section> 
-<h1>Evenement</h1>
+    <article class="evenement"></article>
 <?php if (have_posts()): the_post(); ?>
-<?php the_post_thumbnail(); ?>
-<?php the_title() ?>
-<?php the_content() ?>
+<section class="evenement__resume">
+    <?php the_field('resume');?>
+    </section>
+    <p class="evenement__endroit">
+    <?php the_field('endroit');?>
+</p>
+</article>
 <?php endif ?>
-
 </main>
 <?php get_footer() ?>
