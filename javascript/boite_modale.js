@@ -1,4 +1,8 @@
 (function(){
+    let boite__modale = document.querySelector('.boite__modale')
+    let boite__modale__ferme = document.querySelector('.boite__modale__ferme')
+    let cours__desc__suite = document.querySelectorAll('.cours__desc__suite')
+
     
 
     let collection_bout_suite = document.querySelectorAll('.cours__desc__suite')
@@ -7,6 +11,8 @@
     for (const bouton of collection_bout_suite) {
         bouton.addEventListener('mousedown', function(){
             console.log(this.tagName)
+            boite__modale.classList.add('boite__modale__ouvrir');
+            // remove contraire de add
         })
     }
 
