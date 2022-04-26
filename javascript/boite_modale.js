@@ -20,5 +20,9 @@
         })
     }
 
+    boite__modale__ferme.addEventListener('mousedown', function(){
+        boite__modale.classList.remove('boite__modale__ouvrir');
+    })
+
 
 })()
