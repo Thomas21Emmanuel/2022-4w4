@@ -26,14 +26,37 @@ Le hook : 'customize_register' qui sera utilisé dans le l'écouteur add_action(
     add_action('customize_register', function(WP_Customize_Manager $manager){
         $manager->add_section('section_modifier_background_body',
          ["title"=>"Modification de la couleur du background"]);
+
+
+
+         /* Première propriété à modifier */
         $manager->add_setting('couleur_background_body', 
         ["default"=>"#fff",
         "sanitize_callback"=>"sanitize_hex_color"]);
-        $manager->add_control('couleur_background_body', 
+
+        /* Deuxième propriété à modifier */
+        $manager->add_setting('couleur_background_footer', 
+        ["default"=>"#fff",
+        "sanitize_callback"=>"sanitize_hex_color"]);
+
+
+        /*$manager->add_control('couleur_background_body', 
             ["section"=>"section_modifier_background_body",
             "setting"=>"couleur_background_body",
             "label"=>"Couleur background du body"]);
-    });
+    }); */
 
 
+/* Première propriété à modifier */
+    $manager->add_control(new WP_Customize_Color_Control($manager,"couleur_background_body",
+    
+    ["section"=>"section_modifier_background_body",
+    "label"=>"Couleur background de l'entete"]));
+
+    /* Deuxième propriété à modifier */
+    $manager->add_control(new WP_Customize_Color_Control($manager,"couleur_background_footer",
+    
+    ["section"=>"section_modifier_background_body",
+    "label"=>"Couleur background du footer"]));
+ });
 ?>
