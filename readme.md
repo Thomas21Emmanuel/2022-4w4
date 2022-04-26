@@ -1,6 +1,6 @@
-# Exercise #1 - 4W4 - Conception d'interface et développement Web
+# Lab #6 - 4W4 - Conception d'interface et développement Web
 ### Auteur : Emmanuel Thomas
-### Date de remise : 11 février 2022
+### Date de remise : 22 Avril 2022
 
 ```
 Cet exercise nous a permis d'introduire la structure d'ue thème Wordpress.
