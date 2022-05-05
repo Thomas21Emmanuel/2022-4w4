@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-theme name: 2022-4w4 Ex4 Emmanuel Thomas
+theme name: 2022-4w4 Ex3 Emmanuel Thomas
 Author: Emmanuel Thomas
 Author URI: https://github.com/Thomas21Emmanuel/
 */
@@ -680,16 +680,10 @@ COMPOSANTES
 
 #burger {
   position: absolute;
-  top: 0;
-  transition: transform .3s;
 }
 
 #chk-burger {
   display: none;
-}
-
-#chk-burger:checked ~ #burger {
-  transform: rotate(90deg);
 }
 
 .menu-principal-container {
@@ -698,47 +692,41 @@ COMPOSANTES
 
 #chk-burger:checked ~ .menu-principal-container {
   display: block;
-  transform: translateY(0px);
-  transition-duration: transform .4s;
 }
 
 .menu-principal-container {
-  /*nav*/
-  /*UL*/
-  /*LI*/
+  padding: 30px 0 0 0;
 }
 
-.menu-principal-container .menu {
+.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
-.menu-principal-container .menu-item {
+.menu-item {
   margin: 0;
   padding: 0;
 }
 
-.menu-principal-container .menu-item a {
+.menu-item a {
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: #353333;
-  color: white;
-}
-
-.menu-principal-container .menu-item a:hover {
-  background-color: white;
-  color: #293856;
 }
 
 @media screen and (min-width: 601px) {
-  #burger {
+  .site #burger {
     display: none;
   }
-  .menu-principal-container {
+  .site .menu-principal-container {
     display: block;
+  }
+  .home #burger {
+    display: block;
+  }
+  .home .menu-principal-container {
+    display: none;
   }
 }
 
@@ -932,6 +920,30 @@ COMPOSANTES
   transform: scale(1);
 }
 
+.evenement__resume {
+  color: white;
+}
+
+.evenement__endroit {
+  color: white;
+}
+
+.evenement__heure {
+  color: white;
+}
+
+.evenement__date {
+  color: white;
+}
+
+.evenement__organisateur {
+  color: white;
+}
+
+.evenement__organisateur {
+  color: white;
+}
+
 /* ---------------------------------------------------------
 LAYOUT
 --------------------------------------------------------- */
@@ -981,18 +993,13 @@ theme name: TP1 Emmanuel Thomas
 .site {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "sidebar" 
- "header"
- "main"
- "footer";
+  grid-template-areas: "sidebar"  "header" "main" "footer";
 }
 
 @media screen and (min-width: 601px) {
   .site {
     grid-template-columns: 300px auto;
-    grid-template-areas: "header header"
- "sidebar main"
- "footer footer";
+    grid-template-areas: "header header" "sidebar main" "footer footer";
   }
 }
 
@@ -1118,5 +1125,53 @@ ANIMATION
   100% {
     transform: rotateY(0deg);
   }
+}
+
+.burger {
+  margin: 10px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 25%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.burger .burger__ligne {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  transition: all .2s ease-in-out;
+}
+
+.burger .burger__ligne:nth-of-type(1) {
+  clip-path: polygon(0 0%, 100% 0%, 100% 20%, 0 20%);
+}
+
+.burger .burger__ligne:nth-of-type(2) {
+  clip-path: polygon(0 40%, 100% 40%, 100% 60%, 0 60%);
+}
+
+.burger .burger__ligne:nth-of-type(3) {
+  clip-path: polygon(0 80%, 100% 80%, 100% 100%, 0 100%);
+}
+
+/* Le bouton burger s'anime quand la case à cocher (invisible) est cochée */
+#chk-burger:checked ~ #burger .burger__ligne {
+  background-color: aliceblue;
+}
+
+#chk-burger:checked ~ #burger .burger__ligne:nth-of-type(1) {
+  clip-path: polygon(7.1% -7.1%, 107.1% 92.9%, 92.9% 107.1%, -7.1% 7.1%);
+}
+
+#chk-burger:checked ~ #burger .burger__ligne:nth-of-type(2) {
+  clip-path: polygon(45% 40%, 55% 40%, 55% 60%, 45% 60%);
+}
+
+#chk-burger:checked ~ #burger .burger__ligne:nth-of-type(3) {
+  clip-path: polygon(-7.1% 92.9%, 92.9% -7.1%, 107.1% 7.1%, 7.1% 107.1%);
 }
 /*# sourceMappingURL=style.css.map */

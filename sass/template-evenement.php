@@ -15,7 +15,7 @@
 <p class="evenement__heure">
     <?php the_field('heure');?>
 </p>
-<p>
+<p class="evenement__organisateur">
     <?php the_field('organisateur');?>
 </p>
 <?php 
