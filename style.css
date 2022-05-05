@@ -944,6 +944,23 @@ COMPOSANTES
   color: white;
 }
 
+/*
+Galerie gutenberg de la page d'accueil
+*/
+.galerie {
+  width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+  .galerie {
+    width: 75%;
+  }
+}
+
+.home .site__main {
+  align-items: center;
+}
+
 /* ---------------------------------------------------------
 LAYOUT
 --------------------------------------------------------- */
