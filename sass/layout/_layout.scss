@@ -37,6 +37,8 @@ theme name: TP1 Emmanuel Thomas
 .site__main{
     grid-area: main;
     background-color: rgba($color__background-main, .5);
+    display : flex;
+    flex-direction: column;
 }
 
 .site__footer{

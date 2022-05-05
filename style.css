@@ -1000,6 +1000,8 @@ theme name: TP1 Emmanuel Thomas
 .site__main {
   grid-area: main;
   background-color: rgba(160, 169, 207, 0.5);
+  display: flex;
+  flex-direction: column;
 }
 
 .site__footer {
