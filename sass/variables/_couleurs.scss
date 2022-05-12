@@ -3,15 +3,15 @@ $color__background-body : hsl(228, 13%, 31%);
 $color__background-main : hsl(229, 33%, 72%);
 $color__background-cours : hsl(0, 0%, 100%);
 $color__background-header : #121212;
-$color__background-barre : #121212;
+$color__background-barre : #262f61;
 $color__background-footer :  #121212;
 $color__background-link : hsl(0, 0%, 100%);
 $color__background-link-hover : hsl(239, 61%, 21%);
 
 /* ---------------- LIENS */
-$color__link : hsl(226, 37%, 16%);
+$color__link : white;
 $color__link-hover : hsl(229, 33%, 72%);
-$color__link-visited : white;
+$color__link-visited : hsl(226, 60%, 45%);
 
 
 /* ---------------- LIENS FOOTER */
@@ -55,9 +55,9 @@ $color__link__main__titre-hover:hsl(221, 35%, 25%);
 /* ---------------- COULEUR Bouton Menu-catégorie cours */
 $color__bouton__color: hsl(226, 37%, 16%);
 $color__bouton__background:  hsl(220, 39%, 68%);
-$color__bouton__color--hover:  hsl(203, 66%, 61%);
+$color__bouton__color--hover:  #2d7adf;
 $color__bouton__background--hover: white;
-$color__bouton__background--current: hsl(203, 80%, 40%);
+$color__bouton__background--current: #4fbbd6;
 
 /* ---------------- COULEUR carte évènements */
 $couleur__carte__evenement: rgb(61, 130, 220);
