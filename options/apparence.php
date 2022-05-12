@@ -39,6 +39,10 @@ Le hook : 'customize_register' qui sera utilisé dans le l'écouteur add_action(
         ["default"=>"#121212",
         "sanitize_callback"=>"sanitize_hex_color"]);
 
+        $manager->add_setting('couleur_background_main', 
+        ["default"=>"hsl(229, 33%, 72%);",
+        "sanitize_callback"=>"sanitize_hex_color"]);
+
 
         /*$manager->add_control('couleur_background_body', 
             ["section"=>"section_modifier_background_body",
@@ -59,6 +63,12 @@ Le hook : 'customize_register' qui sera utilisé dans le l'écouteur add_action(
     
     ["section"=>"section_modifier_background_body",
     "label"=>"Couleur background du footer"
+    ]));
+
+    $manager->add_control(new WP_Customize_Color_Control($manager,"couleur_background_main",
+    
+    ["section"=>"section_modifier_background_body",
+    "label"=>"Couleur background du main"
     ]));
  });
 ?>

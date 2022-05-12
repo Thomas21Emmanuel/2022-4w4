@@ -16,35 +16,6 @@
     }
 }
 
-.animation__bloc:first-child {
-    &:hover {
-        animation: anim-jeu 2s forwards;
-    }
-}
-
-.animation__bloc:nth-child(2) {
-    &:hover {
-        animation: anim-info 2s forwards;
-    }
-}
-
-.animation__bloc:nth-child(3) {
-    &:hover {
-        animation: anim-web 2s forwards;
-    }
-}
-
-.animation__bloc:nth-child(4) {
-    &:hover {
-        animation: anim-vid 2s forwards;
-    }
-}
-.animation__bloc:nth-child(5) {
-    &:hover {
-        animation: anim-3d 5s forwards;
-    }
-}
-
 
 @keyframes anim-entete {
     0% {
@@ -53,88 +24,5 @@
 
     100% {
             transform: translateY(0);
-    }
-}
-
-@keyframes anim-jeu {
-    0% {
-        transform: translateX(-10px);
-    }
-
-    25% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(10px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes anim-vid {
-    0% {
-        transform: rotate(45deg);
-    }
-
-    25% {
-        transform: rotate(90deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(0);
-    }
- }
-    @keyframes anim-info {
-        0% {
-            background-color: #495a8f;
-        }
-    
-        25% {
-            background-color: #6679b8;
-        }
-    
-        50% {
-            background-color: #93a8ec;
-        }
-        100% {
-            background-color: #a4b1dd;
-        }
-}
-@keyframes anim-web {
-    0% {
-        transform: scale(2);
-    }
-
-    25% {
-        transform: scale(4);
-    }
-
-    50% {
-       transform: scale(2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes anim-3d {
-    0% {
-        transform: rotateY(150deg);
-    }
-
-    25% {
-        transform: rotateY(0deg);
-    }
-
-    50% {
-        transform: rotateY(-150deg);
-    }
-    100% {
-        transform: rotateY(0deg);
     }
 }

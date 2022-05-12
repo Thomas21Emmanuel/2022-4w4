@@ -13,6 +13,10 @@
         .site__header {
             background-color:<?= get_theme_mod('couleur_background_body'); ?>;">
         }
+
+        .site__main {
+            background-color:<?= get_theme_mod('couleur_background_main'); ?>;">
+        }
     
 
     </style>
