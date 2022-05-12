@@ -14,6 +14,7 @@ Voici la structure utilisée:
 - Nous avons créer un template pour les évènements
 - Nous avons ajouté une galerie ainsi qu'un carrousel d'images
 
+Github page: https://thomas21emmanuel.github.io/2022-4w4/
 
 Pour modifier readm.md
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
