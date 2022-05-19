@@ -1,0 +1,19 @@
+.menu-atelier-container .menu-item-icone {
+
+    &:hover{
+        animation: anim-icone 1s forwards;
+    }
+    
+
+}
+
+@keyframes anim-icone {
+
+    0%{
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+}

@@ -1202,4 +1202,17 @@ ANIMATION
 #chk-burger:checked ~ #burger .burger__ligne:nth-of-type(3) {
   clip-path: polygon(-7.1% 92.9%, 92.9% -7.1%, 107.1% 7.1%, 7.1% 107.1%);
 }
+
+.menu-atelier-container .menu-item-icone:hover {
+  animation: anim-icone 1s forwards;
+}
+
+@keyframes anim-icone {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
 /*# sourceMappingURL=style.css.map */
