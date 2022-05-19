@@ -1,18 +1,15 @@
-# TP #2 - 4W4 - Conception d'interface et développement Web
+# Épreuve finale - 4W4 - Conception d'interface et développement Web
 ### Auteur : Emmanuel Thomas
-### Date de remise : 13 Mai 2022
+### Date de remise : 19 Mai 2022
 
 ```
-Ce TP nous a permis d'introduire la structure d'ue thème Wordpress.
-Voici la structure utilisée:
+Pour cette épreuve finale, vous avons:
 
-- Pour le style css nous avons utilisé Sass
-- Les fonctions du thème se trouve dans <<functions.php>>
-- Le modèle principal est : <<index.php>>
-- Nous avons ajouté une boite modale pour montrer les cours
-- NOus avons ajouter un customiser pour changer la couleur de l'entête et du footer
-- Nous avons créer un template pour les évènements
-- Nous avons ajouté une galerie ainsi qu'un carrousel d'images
+- Créer un nouveau menu
+- Créer quatres pages d'ateliers
+- Créer un gabarit pour les pages des ateliers
+- Donner un style au menu
+- Donner une animation au menu
 
 Github page: https://thomas21emmanuel.github.io/2022-4w4/
 
