@@ -1008,6 +1008,63 @@ Galerie gutenberg de la page d'accueil
   align-items: center;
 }
 
+.menu-atelier-container .menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-atelier-container .menu .atelier__html .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=html");
+}
+
+.menu-atelier-container .menu .atelier__git .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=git");
+}
+
+.menu-atelier-container .menu .atelier__react .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=reactjs");
+}
+
+.menu-atelier-container .menu .atelier__css .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=css");
+}
+
+.menu-atelier-container .menu .menu-item {
+  width: 15%;
+  height: 250px;
+  padding: 10px;
+  border: 2px solid grey;
+  background-color: #117ee4;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.menu-atelier-container .menu .menu-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 100%;
+}
+
+.menu-atelier-container .menu .menu-item a hr {
+  width: 90%;
+}
+
+.menu-atelier-container .menu .menu-item a .menu-item-description {
+  font-size: 1rem;
+}
+
+.menu-atelier-container .menu .menu-item a .menu-item-icone {
+  width: 3rem;
+  height: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: auto;
+  background-size: cover;
+}
+
 /* ---------------------------------------------------------
 LAYOUT
 --------------------------------------------------------- */
